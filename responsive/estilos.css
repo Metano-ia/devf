@@ -1,0 +1,31 @@
+.portada{
+    border: solid 1px;
+    height: 300px;
+}
+
+.x{
+    height: 100%;
+}
+
+.contenido {
+    border: solid 1px;
+    height: 80%;
+
+}
+.subtitulo{
+    display: none;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    .contenido{
+        background: blue;
+    }
+
+    .titulo{
+        display:none;
+    }
+    .subtitulo{
+        display: block;
+        color: white;
+    }
+}
