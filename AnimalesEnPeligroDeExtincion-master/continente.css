@@ -1,0 +1,303 @@
+body{
+    background-image:url('https://lh4.googleusercontent.com/proxy/Tq8S_QQp5NsGDuLemcydCyVqaw6m0vt7k_G8ZPqOI5nyKs9qg_-MFN0fhd3VqWFrTUNIEFkNaxvogiNl2TwIdMNtyuLlpBM1=s0-d');
+}
+
+.texnav{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #BACCA9;
+}
+.barnav{
+    background-color: #1D1D1D;
+    /* border-bottom: 10px solid #D0A01A; */
+}
+
+.titleText{
+    font-family: 'Crushed', cursive;
+    font-size: 40px;
+    color: #709971; 
+}
+.navba{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.clase:hover{
+    color: #595959; 
+}
+
+.foot{
+    background-color:  #1D1D1D;
+
+    width: 100%
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 40px; 
+    height: auto;
+/* INICIO TITULO GENERAL*/
+}
+.cajtit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #1D1D1D;
+    
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+    color: #405366;
+}
+
+/* FIN TITULO GENERAL*/
+/* INICIO MAPA GENERAL*/
+.basx{
+    padding: 0px;
+    border:1px solid pink;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basy{
+    padding: 0px;
+    border:1px solid pink;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajsepaaaa{
+    margin-top: 100px;
+}
+
+/* SEPARADOR */
+    .cajsep{
+        margin:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .sepuno{
+        width: 100%;
+        height: 30px;
+        background-color: #BACCA9;
+        border-top: 1px dotted black;
+    
+    }
+    .sepdos{
+        width: 60%;
+        height: 10px;
+        background-color: olive;
+    }
+    
+/* FIN SEPARADOR*/
+
+
+
+
+
+
+
+
+
+/* COLLAGE IMAGENES*/
+    /* PANTALLAS CHICAS/MEDIANAS */
+ @media (max-width: 991.98px) { 
+
+    .coll{
+        padding: 0px;
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .content{
+        padding: 0px;
+        border:1px solid red;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .bas{
+        padding: 0px;
+        border:1px solid orangered;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    }
+    .sec{
+        padding: 0px;
+        border:1px solid green;
+        width: 20%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .img{
+        padding: 0px;
+        border:1px solid goldenrod;
+        height: auto;
+    }
+    .contentmap{
+        padding: 0px;
+        border:1px solid red;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+ }
+
+         /* PANTALLAS MAYORES A MEDIANAS */
+         
+ @media (min-width: 992px) { 
+    .coll{
+        width: 80%;
+        padding: 0px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        height: 400px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bas{
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec{
+        width: 33.33%;
+        height: 100%;
+        padding: 0px;
+       
+    }
+    
+    .img{
+        padding: 0px;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* MAP */
+
+    .contentmap{
+        padding: 0px;
+        border:1px solid red;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: 100%;
+        align-items: center;
+    }
+
+    
+    .imgm{
+        border: 1px solid brown;
+    }
+
+    .imgesp{
+        width: 100%;
+        height: 100%;
+    }
+    /* OTRAS ESPECIES*/
+
+    .contentesp{
+        width: 100%;
+        height: 400px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .basesp{
+        padding: 0px;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .secesp{
+        width: 25%;
+        height: 100%;
+        padding: 0px;
+    }
+    .imgesp{
+        padding: 0px;
+        width: 100%;
+        height: 80%;
+    }
+
+    .imgf{
+        padding:0px;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .basy{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    .butesp{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 20%;
+    }
+    /* BOTÓN FINAL*/
+    .but{
+        padding: 20px;
+        width: 20%;
+    }
+  }
