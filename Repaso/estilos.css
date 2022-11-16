@@ -1,0 +1,40 @@
+.portada{
+    border: 2px solid;
+    height: 400px;
+    background-image:url('https://c.wallhere.com/photos/2e/24/raccoons_wildlife_animals-23785.jpg!d') ;
+    background-size: cover;
+}
+
+/** Cover: ajusta la imagen**/
+
+.contenedor-portada {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-portada {
+    border: 10px dashed black;
+    height: 80%;
+    background: white;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: black;
+    font-size: 100px;
+ 
+}
+
+.tarjetas {
+    height: 400px;
+    background: firebrick;
+    padding-top: 20px;
+}
+
+.tarjeta {
+  color: red;
+}
